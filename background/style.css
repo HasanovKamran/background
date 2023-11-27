@@ -1,0 +1,142 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Poppins", sans-serif;
+    }
+    
+    
+    body{
+        min-height: 100vh;
+    }
+    
+    .container{
+        width: 1248px;
+        margin: 0 auto;
+    }
+    
+    header{
+        margin-top: 40px !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .logo{
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .logo a {
+        text-decoration: none;
+        color: black;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    ul{
+        display: flex;
+        list-style-type:none;
+        gap: 20px;
+    }
+    ul a{
+        text-decoration: none;
+        color: black;
+    }
+
+    button{
+        border-radius: 30px;
+    background: #FFF;
+    padding: 8px 24px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+        
+    
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px; 
+    }
+    
+    .button2{
+        background-color: #EF233C;
+        color: white;
+    }
+    .button1{
+       
+    background: #FFF;
+    
+    }
+ main{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main h1{
+        width: 770px;
+        color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1px;
+    }
+main h4{
+    width: 681px;
+    color: #A5A5A5;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    padding: 16px;
+} 
+
+footer{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+    .Purchase{
+       
+        border-radius: 30px;
+        background: #FFF;
+        padding: 8px 24px;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+    }
+ .Purchase .button2 {
+    width: 233px;
+    height: 54px;
+ }
+    footer a{
+        
+        color: #EF233C;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+        padding-top: 16px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
